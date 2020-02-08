@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script  src="validation.js" type="text/javascript"></script>
+    <title></title>
+</head>
+<body>
+
+    <div class="h_class1">
+        <h1 class="h_class1">Indian Railway E-Ticketing System</h1>
+        <header class="navbar">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="login.html">Log in</a></li>
+                <li><a href="#contact">Book Ticket</a></li>
+                <li><a href="#about">Train Availability</a></li>
+            </ul>
+        </header>
+    </div>
+    
+    <div id="d3">
+        <form action="reservation.html" >
+            <table>
+                <tr>
+                    <td><label><b>Email id:</label></td>
+                    <td><input type="email" maxlength="30" ></td>
+                </tr>
+                <tr>
+                    <td><label><b>Password:</label></td>
+                    <td><input id="login_pass" type="password" maxlength="20"  placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Log in" onclick="pass_val("login_pass")"><br /><a href="newuser.html">Register New User</a></td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

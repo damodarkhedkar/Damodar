@@ -1,0 +1,117 @@
+﻿body 
+{
+    border:1px solid groove;
+}
+
+.rail_img
+{
+   
+}
+.h_class1 {
+    color: #42b9f5;
+    font-family: Arial;
+    text-align: center;
+    width:100%;
+    height:30px;
+    margin-top:0px;
+    
+}
+
+
+    ul
+
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: #f55c1b;
+        }
+.tbl {
+   
+    height:400px;
+    width:500px;
+    margin-left:5%;
+    margin-top:10%;
+}
+
+table tr {
+    height: 60px;
+}
+table label
+{
+    font-family:Arial;
+    font-size:15px;
+    
+}
+
+/*body {
+    background-image: url("indianrail1.png"), url("paper.gif");
+    background-color: #cccccc;
+}*/
+
+.d1{
+    position:relative;
+}
+.d2 {
+    position: absolute;
+    left: 600px;
+    top: 0px;
+}
+
+footer {
+    display: block;
+    background-color: #333;
+}
+    footer h4 {
+        text-align: right;
+        color: white;
+        text-decoration: none;
+        
+    }
+
+#d3 {
+    background-color: #dfe5f0;
+    width:300px;
+    height:250px;
+    margin-left:500px;
+    margin-top:200px;
+    padding-left:30px;
+    position:relative;
+}
+
+
+.c1 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    color: white;
+    background-color: #b3b3b3;
+    border: 2px solid white;
+}
+
+#d4 {
+    background-color: #dfe5f0;
+    width: 300px;
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 200px;
+    padding-left: 30px;
+    position: relative;
+}
